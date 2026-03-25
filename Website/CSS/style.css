@@ -8,6 +8,14 @@ body {
     background-color: rgb(85, 186, 199);
 }
 
+header {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius: 15px;
+}
+
 nav {
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -28,12 +36,12 @@ a {
 
 nav a {
     color: white;
-    margin: auto 20px;
 }
 
-footer a {
-    color: white;
-    margin: auto 20px;
+nav img {
+    width: 25px;
+    position: relative;
+    top: 8px;
 }
 
 a:hover {
@@ -47,7 +55,7 @@ a:hover {
 }
 
 .img1 {
-    width: 50%;
+    width: 45%;
     max-width: 500px;
     margin: 10px;
 }
@@ -55,7 +63,7 @@ a:hover {
 .img2 {}
 
 .p1 {
-    width: 44%;
+    width: 50%;
     margin: 10px;
     max-width: 400px;
 }
@@ -69,6 +77,21 @@ footer {
     height: 70px;
     align-content: center;
     border-radius: 15px;
+}
+
+footer a {
+    color: white;
+    margin: 0;
+}
+
+footer img {
+    width: 25px;
+    position: relative;
+    top: 8px;
+}
+
+.footermargin {
+    margin-right: 50px;
 }
 
 h1 {
@@ -87,13 +110,11 @@ h1 {
 /* Minecraft */
 .headminecraft {
     background-image: url(../IMG/1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    border-radius: 15px;
+    color: green;
 }
 
-.headminecraft h1 {
-    color: green;
+/*Statymas*/
+.headstatymas {
+    background-image: url(../IMG/16.webp);
+    color: rgb(119, 61, 13);
 }
