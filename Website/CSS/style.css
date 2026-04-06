@@ -12,7 +12,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 300px;
+    height: 500px;
     border-radius: 15px;
 }
 
@@ -49,7 +49,7 @@ a:hover {
 }
 
 .logo {
-    width: 75px;
+    width: 100px;
     position: relative;
     top: 20%;
 }
@@ -102,9 +102,14 @@ h1 {
         1px -1px 0 black,
         -1px -1px 0 black;
     align-self: center;
-    font-size: 60px;
+    font-size: 85px;
     position: relative;
     top: 15%;
+}
+
+.mirrorimg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 /* Minecraft */
@@ -115,6 +120,33 @@ h1 {
 
 /*Statymas*/
 .headstatymas {
-    background-image: url(../IMG/16.webp);
+    background-image: url(../IMG/16.jpg);
     color: rgb(119, 61, 13);
+}
+
+/*PvP*/
+.headpvp {
+    background-image: url(../IMG/19.jpg);
+    color: rgb(174, 0, 0);
+}
+
+/*Redstone*/
+.headredstone {
+    background-image: url(../IMG/26.png);
+    color: rgb(255, 196, 0);
+    background-position: top;
+}
+
+/*Atsipalaidavimas*/
+.headatsipalaidavimas {
+    background-image: url(../IMG/18.jpg);
+    color: rgb(19, 0, 187);
+    background-position: center;
+}
+
+/*Apskritai*/
+.headapskritai {
+    background-image: url(../IMG/1.jpg);
+    color: rgb(99, 0, 148);
+    background-position: center;
 }
