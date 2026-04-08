@@ -54,18 +54,38 @@ a:hover {
     top: 20%;
 }
 
-.img1 {
-    width: 45%;
-    max-width: 500px;
-    margin: 10px;
+img {
+    border-radius: 10px;
 }
 
-.img2 {}
+.img1 {
+    max-width: 45%;
+    margin: 1%;
+}
+
+.img2 {
+    width: 30%;
+    min-width: 300px;
+}
+
+.img3 {width: 80%;}
+
+figure {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 .p1 {
-    width: 50%;
+    max-width: 30%;
+    min-width: 350px;
     margin: 10px;
-    max-width: 400px;
 }
 
 .p2 {
@@ -105,6 +125,20 @@ h1 {
     font-size: 85px;
     position: relative;
     top: 15%;
+}
+
+.sec1 {
+    background-color: rgb(51, 157, 255);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.sec2 {
+    background-color: rgb(0, 88, 219);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 .mirrorimg {
