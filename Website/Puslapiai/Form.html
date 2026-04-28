@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/Task1.js" defer></script>
 </head>
+
 <body>
     <header class="headapskritai">
         <nav>
@@ -25,7 +28,7 @@
             <a href="Relax.html">Atsipalaidavimas</a>
             <img class="footermargin" src="../IMG/logo5.png" alt="">
 
-           <img src="../IMG/logo1.png" alt="">
+            <img src="../IMG/logo1.png" alt="">
             <a href="../index.html">Minecraft</a>
             <img class="footermargin" src="../IMG/logo1.png" alt="">
         </nav>
@@ -34,9 +37,111 @@
         <img class="logo mirrorimg" src="../IMG/logo6.png" alt="">
     </header>
     <main>
+        <section class="sec1">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>PvP</th>
+                    <th>Statymas</th>
+                    <th>Redstone</th>
+                    <th>Atsipalaidavimas</th>
+                </tr>
+                <tr>
+                    <th>Įtampa</th>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Kūrybiškumas</th>
+                    <td>3</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <th>Sudėtingumas</th>
+                    <td>9</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>Smagumas</th>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </section>
+        <section class="sec2">
+            <h2>Koks žaidėjas esi tu?</h2>
+            <p class="p2">Jei jau apžiūrėjai, kokių įvairių būna žaidėjų, metas pasirinkti, kas gi esi tu. Reikia
+                prisiminti, kad vienas žaidėjas gali turėti daug skirtingų tipų – niekas nėra tobulai vienoks ar kitoks.
+                <br>
+                Man pačiam anksčiau patikdavo žaisti įvairius modus skirtinguose serveriuose. Esu žaidęs Hypixel
+                SkyBlock, penguin.gg, donutsmp ir daug kitų. Tačiau dabar labiau pereinu į PvP „Minecrafto“ pusę.
+                Daugiausia žaidžiu 1.16 PvP, bet kartais pasimėgauju ir 1.8 versija su visais ten esančiais
+                minigame’ais. <br>
+                O koks esi tu?
+            </p>
 
+            <form>
+                <h2>Kaip tu žaidi?</h2>
+
+                <label>Pasirink savo pagrindinį žaidimo tipą:</label>
+                <input type="radio" name="type" value="pvp"> PvP
+                <input type="radio" name="type" value="statymas"> Statymas
+                <input type="radio" name="type" value="redstone"> Redstone
+                <input type="radio" name="type" value="atsipalaidavimas"> Atsipalaidavimas
+
+                <label>Kaip dažnai žaidi?</label>
+                <select>
+                    <option>Kasdien</option>
+                    <option>Kelis kartus per savaitę</option>
+                    <option>Kartą per savaitę</option>
+                    <option>Retai</option>
+                </select>
+
+                <label>Kiek valandų žaidi per dieną?</label>
+                <select>
+                    <option>Iki 1 val</option>
+                    <option>1-2 val</option>
+                    <option>3-4 val</option>
+                    <option>5-6 val</option>
+                    <option>7-10 val</option>
+                    <option>Ne tavo reikalas (virš 10 val)</option>
+                    <option>Oi, žinok, žaidžiu nesustodamas!</option>
+                </select>
+
+                <label>Kokius režimus mėgsti?</label>
+                <input type="checkbox"> SMP
+                <input type="checkbox"> Survival
+                <input type="checkbox"> Creative
+                <input type="checkbox"> MiniGames
+
+                <label>Kokio rimtumo žaidėjas esi (1–10)?</label>
+                <input type="number" min="1" max="10">
+
+                <label>Aprašyk savo žaidimo stilių:</label>
+                <textarea rows="5" placeholder="Pvz. aš dažniausiai žaidžiu PvP ir mėgstu 1.16..."></textarea>
+
+                <label>Tavo Minecraft username:</label>
+                <input type="text">
+
+                <label>Ar naudoji modifikacijas? (Modus, tekstūrų paketus ir kt.)</label>
+                <input type="radio" name="mods" value="taip"> Taip
+                <input type="radio" name="mods" value="ne"> Ne
+
+                <button type="submit">Pateikti</button>
+                <b id="submit">☻ Labas ☺</b>
+            </form>
+
+        </section>
     </main>
-        <footer>
+    <footer>
         <img src="../IMG/minecraft.png" alt="">
         <a href="https://www.minecraft.net/en-us/choose-your-game#modRef:slideUpA;refId:platformPanel_1">Atsisiųsti</a>
         <img class="footermargin" src="../IMG/minecraft.png" alt="">
@@ -52,10 +157,11 @@
         <img src="../IMG/facebook.png" alt="">
         <a href="https://www.facebook.com/minecraft/">Facebook</a>
         <img class="footermargin" src="../IMG/facebook.png" alt="">
-        
+
         <img src="../IMG/twitter.png" alt="">
         <a href="https://x.com/Minecraft/with_replies">Twitter</a>
         <img src="../IMG/twitter.png" alt="">
     </footer>
 </body>
+
 </html>
