@@ -11,5 +11,5 @@ Kintamasis.onclick = function () {
         Kintamasis.style.backgroundColor = "";
         Kintamasis.innerText = "☻ Labas ☺";
         Kintamasis.style.transition = "transform 2s, background-color 4s";
-    }, 5000);
+    }, 4000);
 };
